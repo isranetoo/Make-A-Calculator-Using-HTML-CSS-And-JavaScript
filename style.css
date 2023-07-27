@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,100&display=swap');
+
+html,body{
+	height: 100%;
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 70%;
+    font-family: "JetBrains Mono",monospace;
+    background: url('https://r4.wallpaperflare.com/wallpaper/846/616/937/digital-digital-art-artwork-illustration-drawing-hd-wallpaper-d8e6eda8d0302c38e0fc217e7832048a.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+}
+
+.calculadora{
+	width: 290px;
+	height: 520px;
+	padding: 10px 20px;
+    margin-top: 45px;
+    margin-bottom: 175px;
+    padding-bottom: 45px;
+	border: 5px solid white;
+	border-radius: 10px;
+	position: relative;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+    font-family: "JetBrains Mono",monospace;
+    background: transparent;
+    backdrop-filter: blur(75px);
+}
+#resultado{
+	background: none;
+	padding: 5px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	border: 5px solid white;
+	border-radius: 4px;
+	color: white;
+	width: 100%;
+	height: 60px;
+    font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+}
+.bt{
+	outline: none;
+	width:55px;
+    height:55px;
+    margin: 2px;
+    padding: 9px;
+    background: none;
+    border: 5px solid white;
+	border-radius: 4px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+.bn:hover{
+	transform: scale(1.08);
+	transition: .5s;
+}
+
+
